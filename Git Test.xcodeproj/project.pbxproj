@@ -21,6 +21,7 @@
 		C696FF9A18CA3E4F0040900E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C696FF7C18CA3E4F0040900E /* UIKit.framework */; };
 		C696FFA218CA3E4F0040900E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C696FFA018CA3E4F0040900E /* InfoPlist.strings */; };
 		C696FFA418CA3E4F0040900E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C696FFA318CA3E4F0040900E /* Git_TestTests.m */; };
+		C696FFAF18CA41F70040900E /* DMBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C696FFAE18CA41F70040900E /* DMBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C696FF9F18CA3E4F0040900E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C696FFA118CA3E4F0040900E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C696FFA318CA3E4F0040900E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C696FFAD18CA41F70040900E /* DMBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBTest.h; sourceTree = "<group>"; };
+		C696FFAE18CA41F70040900E /* DMBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C696FF6C18CA3E4F0040900E = {
 			isa = PBXGroup;
 			children = (
+				C696FFAD18CA41F70040900E /* DMBTest.h */,
+				C696FFAE18CA41F70040900E /* DMBTest.m */,
 				C696FF7E18CA3E4F0040900E /* Git Test */,
 				C696FF9D18CA3E4F0040900E /* Git TestTests */,
 				C696FF7718CA3E4F0040900E /* Frameworks */,
@@ -253,6 +258,7 @@
 				C696FF8918CA3E4F0040900E /* DMBAppDelegate.m in Sources */,
 				C696FF8518CA3E4F0040900E /* main.m in Sources */,
 				C696FF8F18CA3E4F0040900E /* DMBViewController.m in Sources */,
+				C696FFAF18CA41F70040900E /* DMBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
